@@ -6,8 +6,8 @@ const sumArrayInteger = (arr) => {
     for (let i = 0; i < arr.length; i++) {
         sum += arr[i]
     }
-    console.log({ totalSum: sum })
     return sum
 }
 
-sumArrayInteger([1, 2, 3, 4, 5])
+const res = sumArrayInteger([1, 2, 3, 4, 5])
+console.log({ totalSum: res })
